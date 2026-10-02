@@ -1,0 +1,17 @@
+# Build system and installation metadata specification for pip packaging
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iris_pipeline"
+version = "0.1.0"
+description = "A modular multi-class ML classification pipeline"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "scikit-learn>=1.0.0",
+    "pandas>=1.5.0",
+    "seaborn>=0.12.0",
+    "matplotlib>=3.5.0"
+]
