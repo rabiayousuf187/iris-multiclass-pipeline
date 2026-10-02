@@ -1,0 +1,6 @@
+src/iris_pipeline/: The core package directory containing isolated operational modules.
+
+main.py: The entry point script that ties the pipeline components together.
+
+pyproject.toml: The package configuration that makes your repository installable via pip.
+
